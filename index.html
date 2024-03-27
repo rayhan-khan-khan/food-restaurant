@@ -257,7 +257,7 @@
           </div>
           <div class="grid mx-auto gap-4 grid-cols-2 md:grid-cols-4">
             <div>
-              <img src="images/food.png" alt="" />
+              <img class="animate-pulse" src="images/food.png" alt="" />
               <div class="text-center mt-2">
                 <p class="text-[#333] font-semibold text-[18px]">
                   Grand Italiano
@@ -284,7 +284,7 @@
               </div>
             </div>
             <div>
-              <img src="images/food.png " alt="" />
+              <img class="animate-pulse" src="images/food.png " alt="" />
               <div class="text-center mt-2">
                 <p class="text-[#333] font-semibold text-[18px]">
                   Pepperoni tagli
@@ -848,9 +848,7 @@
       <!-- subManin 2 -->
       <main class="max-w-5xl mx-auto p-3">
         <!-- Testimonials -->
-        <section
-          class="flex flex-col md:flex-row gap-20 mt-16 items-center mb-10"
-        >
+        <section class="flex flex-col md:flex-row gap-20 mt-16 items-center">
           <div class="md:w-1/2 space-y-3">
             <p class="text-[#195A00] italic">Testimonials</p>
             <h1 class="text-4xl font-bold">Customer Review</h1>
@@ -902,7 +900,7 @@
           <div class="md:w-1/2 md:relative">
             <img src="images/orderNow.png" alt="" />
             <div
-              class="md:absolute mx-auto -left-16 -bottom-20 bg-base-100 w-80 md:w-72 lg:w-[350px] flex shadow-2xl p-4 pt-"
+              class="md:absolute mt-5 md:mt-0 mx-auto -left-16 -bottom-20 bg-base-100 w-80 md:w-72 lg:w-[350px] flex shadow-2xl p-4 pt-"
             >
               <div class="space-y-2">
                 <h3 class="text-xl font-bold">Order now</h3>
@@ -946,16 +944,115 @@
           </div>
         </section>
         <!-- Latest news & Blog -->
-        <section class="lg:mt-24">
-          <div class="text-center">
-            <h1 class="text-[40px] text-[#333] font-bold">
-              Latest news & Blog
-            </h1>
-            <p class="text-[#828282] text-[16px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-              Varius sed pharetra dictum neque massa congue
-            </p>
+        <section class="lg:mt-24 mt-10">
+          <div class="relative text-center">
+            <div><img class="mx-auto" src="images/pata.png" alt="" /></div>
+            <div class="flex justify-center">
+              <div class="absolute top-8">
+                <h1 class="text-[40px] text-[#333] mb-2 leading-10 font-bold">
+                  Latest news & Blog
+                </h1>
+                <p class="text-[#828282] text-[16px] leading-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br />
+                  Varius sed pharetra dictum neque massa congue
+                </p>
+              </div>
+            </div>
           </div>
+          <!-- card -->
+        <div class="mb-20 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="card hover:translate-y-1 p-3 card-compact  bg-base-100 shadow-xl">
+            <figure><img src="images/testimonilias.png" alt="Shoes" /></figure>
+            <div class="pt-4 ">
+              <div class="flex gap-8">
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M19.5 3.75H4.5C4.08579 3.75 3.75 4.08579 3.75 4.5V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V4.5C20.25 4.08579 19.9142 3.75 19.5 3.75Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.75 8.25H20.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.625 11.9998H11.25L9.75 13.8748C9.99664 13.8748 10.2395 13.9356 10.457 14.0518C10.6745 14.1681 10.86 14.3362 10.9971 14.5412C11.1341 14.7463 11.2185 14.9819 11.2427 15.2274C11.267 15.4728 11.2303 15.7205 11.136 15.9484C11.0417 16.1763 10.8926 16.3774 10.702 16.5339C10.5114 16.6904 10.2852 16.7976 10.0433 16.8458C9.80143 16.894 9.55139 16.8819 9.31534 16.8104C9.07928 16.7389 8.86449 16.6104 8.68999 16.4361" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5 13.1248L15 11.9998V16.8748" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">02 Jan 2022</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6.71096 13.5L3.00006 16.5V4.5C3.00006 4.30109 3.07908 4.11032 3.21973 3.96967C3.36038 3.82902 3.55115 3.75 3.75006 3.75H15.7501C15.949 3.75 16.1397 3.82902 16.2804 3.96967C16.421 4.11032 16.5001 4.30109 16.5001 4.5V12.75C16.5001 12.9489 16.421 13.1397 16.2804 13.2803C16.1397 13.421 15.949 13.5 15.7501 13.5H6.71096Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.50006 13.5V17.25C7.50006 17.4489 7.57908 17.6397 7.71973 17.7803C7.86038 17.921 8.05115 18 8.25006 18H17.2892L21.0001 21V9C21.0001 8.80109 20.921 8.61032 20.7804 8.46967C20.6397 8.32902 20.449 8.25 20.2501 8.25H16.5001" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">Comments (03)</p>
+                </div>
+               
+              </div>
+              <p class="text-[20px] font-medium text-[#333] leading-6 md:pr-20 my-2">Chocolate Truffle Cake With 
+                Honey Flavor</p>
+                <p class="text-[16px] text-[#4F4F4F] leading-5">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+                <div class="text-[16px] flex gap-5 text-[#4F4F4F] items-center my-2"><p>Read more</p> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="card hover:translate-y-1 p-3 card-compact  bg-base-100 shadow-xl">
+            <figure><img src="images/testimonilias.png" alt="Shoes" /></figure>
+            <div class="pt-4 ">
+              <div class="flex gap-8">
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M19.5 3.75H4.5C4.08579 3.75 3.75 4.08579 3.75 4.5V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V4.5C20.25 4.08579 19.9142 3.75 19.5 3.75Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.75 8.25H20.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.625 11.9998H11.25L9.75 13.8748C9.99664 13.8748 10.2395 13.9356 10.457 14.0518C10.6745 14.1681 10.86 14.3362 10.9971 14.5412C11.1341 14.7463 11.2185 14.9819 11.2427 15.2274C11.267 15.4728 11.2303 15.7205 11.136 15.9484C11.0417 16.1763 10.8926 16.3774 10.702 16.5339C10.5114 16.6904 10.2852 16.7976 10.0433 16.8458C9.80143 16.894 9.55139 16.8819 9.31534 16.8104C9.07928 16.7389 8.86449 16.6104 8.68999 16.4361" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5 13.1248L15 11.9998V16.8748" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">02 Jan 2022</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6.71096 13.5L3.00006 16.5V4.5C3.00006 4.30109 3.07908 4.11032 3.21973 3.96967C3.36038 3.82902 3.55115 3.75 3.75006 3.75H15.7501C15.949 3.75 16.1397 3.82902 16.2804 3.96967C16.421 4.11032 16.5001 4.30109 16.5001 4.5V12.75C16.5001 12.9489 16.421 13.1397 16.2804 13.2803C16.1397 13.421 15.949 13.5 15.7501 13.5H6.71096Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.50006 13.5V17.25C7.50006 17.4489 7.57908 17.6397 7.71973 17.7803C7.86038 17.921 8.05115 18 8.25006 18H17.2892L21.0001 21V9C21.0001 8.80109 20.921 8.61032 20.7804 8.46967C20.6397 8.32902 20.449 8.25 20.2501 8.25H16.5001" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">Comments (03)</p>
+                </div>
+               
+              </div>
+              <p class="text-[20px] font-medium text-[#333] leading-6 md:pr-20 my-2">Chocolate Truffle Cake With 
+                Honey Flavor</p>
+                <p class="text-[16px] text-[#4F4F4F] leading-5">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+                <div class="text-[16px] flex gap-5 text-[#4F4F4F] items-center my-2"><p>Read more</p> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+          <div class="card hover:translate-y-1 p-3 card-compact  bg-base-100 shadow-xl">
+            <figure><img src="images/testimonilias.png" alt="Shoes" /></figure>
+            <div class="pt-4 ">
+              <div class="flex gap-8">
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M19.5 3.75H4.5C4.08579 3.75 3.75 4.08579 3.75 4.5V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V4.5C20.25 4.08579 19.9142 3.75 19.5 3.75Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.5 2.25V5.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.75 8.25H20.25" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.625 11.9998H11.25L9.75 13.8748C9.99664 13.8748 10.2395 13.9356 10.457 14.0518C10.6745 14.1681 10.86 14.3362 10.9971 14.5412C11.1341 14.7463 11.2185 14.9819 11.2427 15.2274C11.267 15.4728 11.2303 15.7205 11.136 15.9484C11.0417 16.1763 10.8926 16.3774 10.702 16.5339C10.5114 16.6904 10.2852 16.7976 10.0433 16.8458C9.80143 16.894 9.55139 16.8819 9.31534 16.8104C9.07928 16.7389 8.86449 16.6104 8.68999 16.4361" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5 13.1248L15 11.9998V16.8748" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">02 Jan 2022</p>
+                </div>
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6.71096 13.5L3.00006 16.5V4.5C3.00006 4.30109 3.07908 4.11032 3.21973 3.96967C3.36038 3.82902 3.55115 3.75 3.75006 3.75H15.7501C15.949 3.75 16.1397 3.82902 16.2804 3.96967C16.421 4.11032 16.5001 4.30109 16.5001 4.5V12.75C16.5001 12.9489 16.421 13.1397 16.2804 13.2803C16.1397 13.421 15.949 13.5 15.7501 13.5H6.71096Z" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.50006 13.5V17.25C7.50006 17.4489 7.57908 17.6397 7.71973 17.7803C7.86038 17.921 8.05115 18 8.25006 18H17.2892L21.0001 21V9C21.0001 8.80109 20.921 8.61032 20.7804 8.46967C20.6397 8.32902 20.449 8.25 20.2501 8.25H16.5001" stroke="#195A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p class="text-[16px] font-medium text-gray-500">Comments (03)</p>
+                </div>
+               
+              </div>
+              <p class="text-[20px] font-medium text-[#333] leading-6 md:pr-20 my-2">Chocolate Truffle Cake With 
+                Honey Flavor</p>
+                <p class="text-[16px] text-[#4F4F4F] leading-5">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+                <div class="text-[16px] flex gap-5 text-[#4F4F4F] items-center my-2"><p>Read more</p> <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
         </section>
       </main>
     </main>
